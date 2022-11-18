@@ -12,7 +12,6 @@ public class ReadingFromFile {
         String[] numbersString = line.split(" ") ;
         int[] numbers = new int[6];
         int counter = 0;
-
         for (String a: numbersString) {
             numbers[counter++] = Integer.parseInt(a);
 
